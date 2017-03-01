@@ -15,6 +15,8 @@
         </div>
         <div class='FormContainer'>
             <form id='frmSupport' action='./confirm.php' method='POST'>
+                <input id='support_cbxMug' type='checkbox'>Mug $10</input>
+                
                 <button id='btnSubmit'>Submit</button>
             </form>
         </div>
