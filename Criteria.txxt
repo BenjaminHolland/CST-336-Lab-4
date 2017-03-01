@@ -12,4 +12,6 @@
     but could be fixed with a more specific regex. However as that's not the point of the assignment, I've decieded to cut development
     of this feature off here.
     
+    Persons under of the age of 18 will be admonished when attempting to purchase things. 
+    
 5) There is an external CSS file (10pts)
