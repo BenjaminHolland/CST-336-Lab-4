@@ -1,10 +1,16 @@
 <html>
+    <head>
     <title>
+        Support!
+    </title>
+    <style>
+            @import 'main.css';
+        </style>
         <?php
             session_start();
             $_SESSION['DisplayString']=rand();
         ?>
-    </title>
+    </head>
     <body class='ContentContainer'>
         <div class='Header'>
             
