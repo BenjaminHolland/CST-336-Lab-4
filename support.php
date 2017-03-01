@@ -18,13 +18,12 @@
                 <div id="support_divInfo">
                     <div class='support_InfoLine'>
                         <div class='support_InfoLabel'>Name:</div>
-                        <input id='support_txtName' name='name' type='text' pattern='^+[a-zA-z]'></input>
+                        <input id='support_txtName' required='required' name='name' type='text' pattern="[A-Za-z ]+"></input>
                     </div>
                         <div class='support_InfoLine'>
                         <div class='support_InfoLabel'>Age:</div>
-                        <input id='support_nbrAge' name='age' type='number'></input>
+                        <input id='support_nbrAge' name='age' required='required' type='number'></input>
                     </div>
-                    
                 </div>
                 <div id='support_divMerch'>
                     <div id='support_divMugItem' class='support_ItemLine'>
@@ -48,7 +47,7 @@
                         <div id='support_lblShirtPrice' class='support_itemPrice'>$15</div>
                     </div>
                 </div>
-                <button id='btnSubmit'>Submit</button>
+                <input id='btnSubmit' type='submit'></input>
             </form>
         </div>
     </body>
