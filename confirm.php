@@ -21,19 +21,39 @@
     </title>
     <body id="confirm_body">
         <?php
+            echo "<div><div>DEBUG ITEMS LIST</div><div>";
             var_dump($items);
+            echo "</div>";
         ?>
         <div id="confirm_divItemListHeader">Items</div>
+        
         <div id="confirm_divItemList">
             <?PHP
-            
+                foreach($items as $item){
+                    
+                    $div="<div>";
+                    $div.=$item['name'];
+                    
+                    if($item['name']=='Shirt'){
+                        $shirtSize=$item['size'];
+                        $div.=" $shirtSize";
+                    }
+                    $div.=" Color: ".$item['color'];
+                    $div.=" Price: $".$item['price'];
+                    $div.="</div>";
+                    echo $div;
+                }   
                 //Display list of purchased items here.
             ?>
         </div>
         <div id="confirm_divOrderTotal">
             <div id="confirm_lblOrderTotal">Order Total</div>
             <?PHP
-                
+                $sum=0;
+                foreach($items as $item){
+                    $sum+=$item['price'];                    
+                }
+                echo "<div>Total: $$sum</div>";
                 //Display order total;
             ?>
         </div>
