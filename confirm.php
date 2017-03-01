@@ -4,6 +4,9 @@
         
     </title>
     <body id="confirm_body">
+        <?php
+            var_dump($_POST);
+        ?>
         <div id="confirm_divItemListHeader">Items</div>
         <div id="confirm_divItemList">
             <?PHP
