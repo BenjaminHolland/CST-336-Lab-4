@@ -25,6 +25,16 @@
                         <input id='support_nbrAge' name='age' required='required' type='number'></input>
                     </div>
                 </div>
+                <div id='support_divCanditate'>
+                    <div class='support_CandidateLine'>
+                        <div class='support_CandidateLabel'>Candidate: </div>
+                        <select id='support_obxCandidates' name='candidate'>
+                            <option value="Mr. Peanut">Mr. Peanut</option>
+                            <option value="Saladin, Geinie of the Ages">Saladin, Geinie of the Ages</option>
+                            <option value="Alhambramago: The World Eater">Alhambramago: The World Eater</option>
+                        </select>
+                    </div>
+                </div>
                 <div id='support_divMerch'>
                     <div id='support_divMugItem' class='support_ItemLine'>
                         <input id='support_cbxMug' class='support_itemEnabler' name='orderedMug'  type='checkbox'>Mug</input>
