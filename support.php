@@ -1,6 +1,9 @@
 <html>
     <title>
-        
+        <?php
+            session_start();
+            $_SESSION['DisplayString']=rand();
+        ?>
     </title>
     <body class='ContentContainer'>
         <div class='Header'>
