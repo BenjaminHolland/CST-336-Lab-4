@@ -1,5 +1,15 @@
 1) The support candidate page includes all Form elements (20pts)
+    Completed
+        All input element types in the example form are included, though one or two have been removed for brevity.
+        The "Campaign Magazine" radio button list has been changed to a shirt size selection but is otherwise as intended.
+        As a tradeoff for simply repeating the merch item section for more items, I added color selections for each merch item.
+        
 2) The "confirmation" page displays all data from the Form (25pts)
 3) The total purchase price is calculated properly (25pts)
+    
 4) There is validation for set and empty values (20pts)
+    Completed: All form elements validate automatically on the client side. Names that are only spaces are allowed, which is strange, 
+    but could be fixed with a more specific regex. However as that's not the point of the assignment, I've decieded to cut development
+    of this feature off here.
+    
 5) There is an external CSS file (10pts)
