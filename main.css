@@ -1,12 +1,14 @@
-body{
+body {
     background-color: orange;
     margin: 5px;
 }
-.Header{
-    width:100%;
+
+.Header {
+    width: 100%;
     text-align: center;
 }
-.ImageContainer{
+
+.ImageContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -14,20 +16,21 @@ body{
     margin: 5px;
     background-color: green;
 }
-#imgInspiration{
+
+#imgInspiration {
     display: inline-block;
     margin: 5px;
 }
 
-.FormContainer{
+.FormContainer {
     display: flex;
     flex-direction: row;
     margin: 5px;
     border-radius: 2px;
     background-color: green;
-    
 }
-#frmSupport{
+
+#frmSupport {
     margin: 5px 5px;
     background-color: orange;
     display: flex;
@@ -35,23 +38,45 @@ body{
     width: 100%;
     padding: 5px;
 }
-#support_divInfo{
+
+#support_divInfo {
     background-color: green;
     margin: 5px 0px;
     padding: 5px;
 }
-#support_divCanditate{
+
+#support_divCanditate {
     background-color: green;
     margin: 5px 0px;
     padding: 5px;
 }
-#support_divMerch{
-    background-color: green;
-    margin:5px 0px;
-    padding: 5px;;
-}
-#support_divSubmit{
+
+#support_divMerch {
     background-color: green;
     margin: 5px 0px;
     padding: 5px;
+    ;
+}
+
+#support_divSubmit {
+    background-color: green;
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+#confirm_body {
+    background-color: orange;
+    margin: 5px;
+}
+
+#confirm_divItemList {
+    display: flex;
+    background-color: green;
+    margin: 5px;
+    flex-direction: column;
+}
+
+#confirm_divItem {
+    display: inline-block;
+    text-indent: 50px
 }

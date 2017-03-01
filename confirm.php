@@ -1,11 +1,13 @@
 <html>
-    <title>
-        Order Confirmation
+    <head>
+        <style type="text/css">
+            @import 'main.css';
+        </style>
         <?php
             $customerName=$_POST['name'];
             $customerAge=$_POST['age'];
             $customerCandidate=$_POST['candidate'];
-            
+            var_dump($_POST);
             $items=array();
             
             if($_POST['orderedMug']){
@@ -18,20 +20,25 @@
                 array_push($items,array('name'=>'Shirt','price'=>15.00,'color'=>$_POST['shirtColor'],'size'=>$_POST['shirtSize']));
             }
         ?>
-    </title>
+    <title>
+        Order Confirmation
+        
+    </title>    
+        </head>
+    
     <body id="confirm_body">
         <?php
-            echo "<div><div>DEBUG ITEMS LIST</div><div>";
-            var_dump($items);
+
             echo "</div>";
             if($customerAge<18){
                 echo "You are too young to be a potato.";
             }else{
+                echo "<div id='confirm_divItemListContainer>";
                 echo "<div id='confirm_divItemListHeader'>Items</div>";
                 echo "<div id='confirm_divItemList'>";
                 foreach($items as $item){
                     
-                    $div="<div>";
+                    $div="<div class='confirm_divItem'>";
                     $div.=$item['name'];
                     
                     if($item['name']=='Shirt'){
@@ -46,6 +53,7 @@
                 
                 //Display list of purchased items here.
             
+                echo "</div>";
         echo "</div>";
         echo "<div id='confirm_divOrderTotal'>";
         
