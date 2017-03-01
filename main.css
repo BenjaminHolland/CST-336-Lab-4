@@ -1,4 +1,57 @@
 body{
-    background-color: black;
+    background-color: orange;
     margin: 5px;
+}
+.Header{
+    width:100%;
+    text-align: center;
+}
+.ImageContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    background-color: green;
+}
+#imgInspiration{
+    display: inline-block;
+    margin: 5px;
+}
+
+.FormContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    border-radius: 2px;
+    background-color: green;
+    
+}
+#frmSupport{
+    margin: 5px 5px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+}
+#support_divInfo{
+    background-color: green;
+    margin: 5px 0px;
+    padding: 5px;
+}
+#support_divCanditate{
+    background-color: green;
+    margin: 5px 0px;
+    padding: 5px;
+}
+#support_divMerch{
+    background-color: green;
+    margin:5px 0px;
+    padding: 5px;;
+}
+#support_divSubmit{
+    background-color: green;
+    margin: 5px 0px;
+    padding: 5px;
 }

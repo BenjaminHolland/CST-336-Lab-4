@@ -1,9 +1,9 @@
 <html>
     <head>
-    <title>
-        Support!
-    </title>
-    <style>
+        <title>
+            Support!
+        </title>
+        <style>
             @import 'main.css';
         </style>
         <?php
@@ -13,7 +13,7 @@
     </head>
     <body class='ContentContainer'>
         <div class='Header'>
-            
+            SUPPORT SOMEONE
         </div>
         <div class='ImageContainer'>
             <!--TODO: Find better image-->
@@ -67,7 +67,9 @@
                         <div id='support_lblShirtPrice' class='support_itemPrice'>$15</div>
                     </div>
                 </div>
-                <input id='btnSubmit' type='submit'></input>
+                <div id='support_divSubmit'>
+                    <input id='btnSubmit' type='submit'></input>
+                </div>
             </form>
         </div>
     </body>
