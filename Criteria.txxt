@@ -5,8 +5,9 @@
         As a tradeoff for simply repeating the merch item section for more items, I added color selections for each merch item.
         
 2) The "confirmation" page displays all data from the Form (25pts)
+    Completed.
 3) The total purchase price is calculated properly (25pts)
-    
+    Completed.
 4) There is validation for set and empty values (20pts)
     Completed: All form elements validate automatically on the client side. Names that are only spaces are allowed, which is strange, 
     but could be fixed with a more specific regex. However as that's not the point of the assignment, I've decieded to cut development
@@ -15,3 +16,4 @@
     Persons under of the age of 18 will be admonished when attempting to purchase things. 
     
 5) There is an external CSS file (10pts)
+    Completed.
