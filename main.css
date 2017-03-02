@@ -128,3 +128,22 @@ body {
     text-align: center;
     font-size: 50pt;
 }
+
+#confirm_divMessageContainer{
+    display: flex;
+    background-color: green;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+}
+.colorSwatch{
+    display: inline;
+    
+}
+#confirm_divMessage{
+    width: 100%;
+    text-align: center;
+    background-color: orange;
+    font-size: 20pt;
+    margin: 5px;
+}

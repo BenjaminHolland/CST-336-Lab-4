@@ -37,7 +37,7 @@
                 ?>
                 <div id='confirm_divMessageContainer'>
                     <div id='confirm_divMessage'>
-                        Hey, <?php $customerName?> Thank you for supporting <?php $customerCandidate?>!
+                        Hey, <?php echo $customerName?>! Thank you for supporting <?php echo $customerCandidate?>!
                     </div>
                 </div>
                 <?php
@@ -47,14 +47,16 @@
                 foreach($items as $item){
                     
                     $div="<div class='confirm_divItem'>";
+                    $div.=" <div class='colorSwatch' style='color: ".$item['color'].";'>&#9646</div>";
+                    
                     $div.=$item['name'];
                     
                     if($item['name']=='Shirt'){
                         $shirtSize=$item['size'];
                         $div.=" ($shirtSize)";
                     }
-                    $div.=" Color: ".$item['color'];
-                    $div.=" Price: $".$item['price'];
+                    
+                    $div.=" - $".$item['price'];
                     $div.="</div>";
                     echo $div;
                 }
