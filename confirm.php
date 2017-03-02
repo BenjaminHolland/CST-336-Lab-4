@@ -28,12 +28,19 @@
     
     <body id="confirm_body">
         <?php
-
+            
             if($customerAge<18){
                 echo "<div id='confirm_divAgeError'>";
                 echo "You are too young to be a potato.";
                 echo "</div>";
             }else{
+                ?>
+                <div id='confirm_divMessageContainer'>
+                    <div id='confirm_divMessage'>
+                        Hey, <?php $customerName?> Thank you for supporting <?php $customerCandidate?>!
+                    </div>
+                </div>
+                <?php
                 echo "<div id='confirm_divItemListContainer'>";
                 echo "<div id='confirm_divItemListHeader'>Items</div>";
                 echo "<div id='confirm_divItemList'>";
