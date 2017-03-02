@@ -1,11 +1,16 @@
 body {
     background-color: orange;
     margin: 5px;
+    display: flex;
+    flex-direction:column;
 }
 
 .Header {
-    width: 100%;
+    display: inline-block;
     text-align: center;
+    background-color: green;
+    font-size: 30pt;
+    margin: 5px;
 }
 
 .ImageContainer {
@@ -19,6 +24,7 @@ body {
 
 #imgInspiration {
     display: inline-block;
+    background-color: orange;
     margin: 5px;
 }
 
