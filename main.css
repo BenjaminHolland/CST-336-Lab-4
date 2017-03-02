@@ -2,7 +2,7 @@ body {
     background-color: orange;
     margin: 5px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
 
 .Header {
@@ -75,26 +75,26 @@ body {
     margin: 5px;
 }
 
-#confirm_divItemListContainer{
+#confirm_divItemListContainer {
     display: flex;
     flex-direction: column;
     background-color: green;
     margin: 5px;
-    
 }
+
 #confirm_divItemList {
     display: flex;
     flex-direction: column;
     background-color: orange;
     margin: 5px;
-    
 }
-#confirm_divItemListHeader{
+
+#confirm_divItemListHeader {
     background-color: orange;
     margin: 5px;
     font-size: 20pt;
-    
 }
+
 .confirm_divItem {
     display: block;
     background-color: orange;
@@ -102,22 +102,29 @@ body {
     text-indent: 50px;
 }
 
-#confirm_divOrderTotal{
+#confirm_divOrderTotal {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     background-color: green;
     margin: 5px;
 }
-#confirm_lblOrderTotal{
+
+#confirm_lblOrderTotal {
     display: block;
     background-color: orange;
     margin: 5px;
-    font-size: 20pt;    
+    font-size: 20pt;
 }
 
-#confirm_lblTotal{
-    display:block;
+#confirm_lblTotal {
+    display: block;
     background-color: orange;
     margin: 5px;
     text-indent: 50px;
+}
+
+#confirm_divAgeError{
+    display: block;
+    text-align: center;
+    font-size: 50pt;
 }

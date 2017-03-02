@@ -7,7 +7,7 @@
             $customerName=$_POST['name'];
             $customerAge=$_POST['age'];
             $customerCandidate=$_POST['candidate'];
-            var_dump($_POST);
+            
             $items=array();
             
             if(array_key_exists('orderedMug',$_POST)){
@@ -29,9 +29,10 @@
     <body id="confirm_body">
         <?php
 
-            echo "</div>";
             if($customerAge<18){
+                echo "<div id='confirm_divAgeError'>";
                 echo "You are too young to be a potato.";
+                echo "</div>";
             }else{
                 echo "<div id='confirm_divItemListContainer'>";
                 echo "<div id='confirm_divItemListHeader'>Items</div>";
