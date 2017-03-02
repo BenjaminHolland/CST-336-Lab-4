@@ -33,7 +33,7 @@
             if($customerAge<18){
                 echo "You are too young to be a potato.";
             }else{
-                echo "<div id='confirm_divItemListContainer>";
+                echo "<div id='confirm_divItemListContainer'>";
                 echo "<div id='confirm_divItemListHeader'>Items</div>";
                 echo "<div id='confirm_divItemList'>";
                 foreach($items as $item){
@@ -63,7 +63,7 @@
                 foreach($items as $item){
                     $sum+=$item['price'];                    
                 }
-                echo "<div>Total: $$sum</div>";
+                echo "<div id='confirm_lblTotal'>Total: $$sum</div>";
                 //Display order total;
             
         echo "</div>"; 
