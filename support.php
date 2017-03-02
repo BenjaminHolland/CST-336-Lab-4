@@ -43,23 +43,29 @@
                 </div>
                 <div id='support_divMerch'>
                     <div id='support_divMugItem' class='support_ItemLine'>
-                        <div id='support_lblMugEnable'>Mug</div>
+                        
                         <input id='support_cbxMug' class='support_itemEnabler' name='orderedMug'  type='checkbox'></input>
+                        <div id='support_lblMugEnable' class='support_ItemLabel'>Mug</div>
+                        
                         <input id='support_colMug' class='support_itemColorer' name='mugColor' type='color'></input>
+                        <div class='support_OptionsItem'></div>
                         <div id='support_lblMugPrice' class='support_itemPrice'>$10</div>
                     </div>
                     <div id='support_divPenItem' class='support_ItemLine'>
-                        <div id='support_lblPenEnable'>Pen</div>
                         <input id='support_cbxPen' class='support_itemEnabler' name='orderedPen' type='checkbox'></input>
+                        <div id='support_lblPenEnable' class='support_ItemLabel'>Pen</div>
+                        
                         <input id='support_colPen' class='support_itemColorer' name='penColor' type='color'></input>
+                        <div class='support_OptionsItem'></div>
                         <div id='support_lblPenPrice' class='support_itemPrice'>$2</div>
                     </div>
                     <div id='support_divShirtItem' class='support_ItemLine'>
                         
-                        <div id='support_lblShirtEnable'>Shirt</div>
                         <input id='support_cbxShirt' class='support_itemEnabler' name='orderedShirt' type='checkbox'></input>
-                        <input id='support_colShirt' class='support_itemColorer' name='shirtColor' type='color'>Shirt Color</input>
-                        <div id='support_szShirt'>
+                        <div id='support_lblShirtEnable' class='support_ItemLabel'>Shirt</div>
+                        
+                        <input id='support_colShirt' class='support_itemColorer' name='shirtColor' type='color'></input>
+                        <div id='support_szShirt' class='support_OptionsItem'>
                             <input id='support_szShirt_S' type='radio' name='shirtSize'  value='S'>Small</input>
                             <input id='support_szShirt_S' type='radio' name='shirtSize'  value='M' checked='checked'>Medium</input>
                             <input id='support_szShirt_S' type='radio' name='shirtSize'  value='L'>Large</input>

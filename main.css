@@ -115,7 +115,21 @@ body {
     margin: 5px;
     font-size: 20pt;
 }
-
+.support_ItemLine{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px 5px 0px;
+    background-color: orange;
+}
+.support_OptionsItem{
+    background-color: orange;
+    min-width: 200px;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 5px 0px 0px;
+}
+.support_ItemLabel{
+    min-width: 200px;
+}
 #confirm_lblTotal {
     display: block;
     background-color: orange;
@@ -123,24 +137,25 @@ body {
     text-indent: 50px;
 }
 
-#confirm_divAgeError{
+#confirm_divAgeError {
     display: block;
     text-align: center;
     font-size: 50pt;
 }
 
-#confirm_divMessageContainer{
+#confirm_divMessageContainer {
     display: flex;
     background-color: green;
     flex-direction: row;
     align-items: center;
     margin: 5px;
 }
-.colorSwatch{
+
+.colorSwatch {
     display: inline;
-    
 }
-#confirm_divMessage{
+
+#confirm_divMessage {
     width: 100%;
     text-align: center;
     background-color: orange;
