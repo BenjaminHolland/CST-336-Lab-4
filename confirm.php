@@ -10,13 +10,13 @@
             var_dump($_POST);
             $items=array();
             
-            if($_POST['orderedMug']){
+            if(array_key_exists('orderedMug',$_POST)){
                 array_push($items,array('name'=>'Mug','price'=>10.00,'color'=>$_POST['mugColor']));
             }
-            if($_POST['orderedPen']){
+            if(array_key_exists('orderedPen',$_POST)){
                 array_push($items,array('name'=>'Pen','price'=>2.00,'color'=>$_POST['penColor']));
             }
-            if($_POST['orderedShirt']){
+            if(array_key_exists('orderedShirt',$_POST)){
                 array_push($items,array('name'=>'Shirt','price'=>15.00,'color'=>$_POST['shirtColor'],'size'=>$_POST['shirtSize']));
             }
         ?>
