@@ -115,21 +115,25 @@ body {
     margin: 5px;
     font-size: 20pt;
 }
-.support_ItemLine{
+
+.support_ItemLine {
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin: 5px 0px 5px 0px;
     background-color: orange;
 }
-.support_OptionsItem{
-    background-color: orange;
+
+.support_OptionsItem {
+    background-color: green;
     min-width: 200px;
-    margin: 0px 10px 0px 10px;
-    padding: 0px 5px 0px 0px;
+    margin: 5px 10px 5px 10px;
 }
-.support_ItemLabel{
+
+.support_ItemLabel {
     min-width: 200px;
 }
+
 #confirm_lblTotal {
     display: block;
     background-color: orange;
@@ -143,6 +147,15 @@ body {
     font-size: 50pt;
 }
 
+.support_itemColorer {
+    margin: 5px;
+}
+
+.support_itemPrice{
+    background-color: green;
+    margin: 5px;
+    vertical-align:  middle;
+}
 #confirm_divMessageContainer {
     display: flex;
     background-color: green;
